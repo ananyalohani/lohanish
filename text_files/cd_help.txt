@@ -1,0 +1,22 @@
+cd: cd [OPTION] [DIR]
+    Change the shell working directory.
+    
+    Change the current directory to DIR. The default DIR is the value of the
+    HOME shell variable.
+
+    Displays an error message if an invalid option is given or the directory is 
+    not found.
+
+    Options:
+      -P        use the physical directory structure without following
+                symbolic links: resolve symbolic links in DIR before 
+                processing instances of `..'
+                
+     --help     displays this help page of cd, as stored in the file
+                `text_files/cd_help.txt'; displays all the options available.
+                displays an error message if a third argument is 
+                passed
+
+    The default is to resolve symbolic links in DIR, as if `-P' were specified.
+    `..' is processed by removing the immediately previous pathname component
+    back to a slash or the beginning of DIR using the system call realpath().

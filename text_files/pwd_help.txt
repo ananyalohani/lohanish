@@ -1,0 +1,13 @@
+pwd: pwd [OPTION]
+    Print the name of the current working directory.
+
+    Displays an error message if an invalid option is given or the directory 
+    cannot be read.
+
+    Options:
+      -P        print the physical directory, without any symbolic links
+      
+      --help    displays this help page of pwd, as stored in the file
+                `pwd_help.txt'; displays all the options available.
+        
+    By default, `pwd' behaves as if `-P' were specified.

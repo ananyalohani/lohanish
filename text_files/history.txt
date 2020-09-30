@@ -1,0 +1,9 @@
+history
+pwd
+cd ~
+pwd
+history
+echo abc def ghi
+cat
+cat -n
+exit
