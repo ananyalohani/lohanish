@@ -6,3 +6,5 @@ My own shell implementing the following commands with two options each: cd, echo
 2. `cd` into this directory
 3. run `make` in the terminal
 4. run `./shell`
+
+Note: The shell was coded to work on Ubuntu so you might face some issues if you have a different OS.
