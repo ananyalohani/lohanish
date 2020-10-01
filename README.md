@@ -9,4 +9,4 @@ My own shell implementing the following commands with two options each: cd, echo
 
 For the full documentation, check out Assignment-1.2.pdf.
 
-Note: The shell was coded to work on Ubuntu so you might face some issues if you have a different OS.
+Note: The shell was coded to work on Linux so you might face some issues if you have a different OS.
