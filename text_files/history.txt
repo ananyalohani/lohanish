@@ -7,3 +7,9 @@ echo abc def ghi
 cat
 cat -n
 exit
+cd ..
+ls
+cd lohanish
+cd internal
+ls
+cd ..

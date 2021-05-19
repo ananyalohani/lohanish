@@ -1,12 +1,58 @@
-# lohanish
-My own shell implementing the following commands with two options each: cd, echo, pwd, history, exit, ls, cat, mkdir, rm, date.
+<div align="center">
+  <img src="images/logo.png" width="80">
+  <h1>Lohanish</h1>
+</div>
 
-### Steps to run the shell:
-1. download the code
-2. `cd` into this directory
-3. run `make` in the terminal
-4. run `./shell`
+## Overview
 
-For the full documentation, check out Assignment-1.2.pdf.
+A Linux shell coded in C, consisting of 10 commands with 2 options each and accepting all possible arguments. Coded both internal and external commands, using `fork()` and `exec()` system calls respectively. Also handled various corner cases and errors.
 
-Note: The shell was coded to work on Linux so you might face some issues if you have a different OS.
+## Instructions
+
+Run the following commands on the terminal
+
+```
+git clone https://github.com/ananyalohani/lohanish.git
+cd lohanish
+make
+./shell
+```
+
+For the full details of implementation, check out `documentation.pdf`.
+
+## Commands
+
+#### Internal
+
+- **`cd`**: `-P`, `--help`
+
+- **`echo`**: `-n`, `-E`
+
+- **`history`**: `-c`, `-d`
+
+- **`pwd`**: `-P`, `--help`
+
+- **`exit`**
+
+#### External
+
+- **`ls`**: `-m`, `-D`
+
+- **`cat`**: `-n`, `-E`
+
+- **`date`**: `-u`, `-R`
+
+- **`rm`**: `-v`, `-i`
+
+- **`mkdir`**: `-v`, `-p`
+
+## Demo
+
+![image](images/demo1.png)
+![image](images/demo2.png)
+![image](images/demo3.png)
+![image](images/demo4.png)
+
+#### Made By
+
+**[Ananya Lohani](https://ananyalohani.me/)** | [GitHub](https://github.com/ananyalohani/)
