@@ -18,7 +18,7 @@ make
 ./shell
 ```
 
-For the full details of implementation, check out `documentation.pdf`.
+For the full details of implementation, check out [`documentation.pdf`](https://github.com/ananyalohani/lohanish/blob/master/documentation.pdf).
 
 ## Commands
 
