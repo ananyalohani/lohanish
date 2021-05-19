@@ -49,8 +49,11 @@ For the full details of implementation, check out `documentation.pdf`.
 ## Demo
 
 ![image](images/demo1.png)
+
 ![image](images/demo2.png)
+
 ![image](images/demo3.png)
+
 ![image](images/demo4.png)
 
 #### Made By
